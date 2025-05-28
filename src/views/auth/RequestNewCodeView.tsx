@@ -27,10 +27,10 @@ export default function RegisterView() {
 
     return (
         <>
-            <h1 className="text-5xl font-black text-white">Solicitar Código de Confirmación</h1>
-            <p className="text-2xl font-light text-white mt-5">
+            <h1 className="text-5xl font-black text-black">Solicitar Código de Confirmación</h1>
+            <p className="text-2xl font-light text-black mt-5">
                 Coloca tu e-mail para recibir {''}
-                <span className=" text-fuchsia-500 font-bold"> un nuevo código</span>
+                <span className=" text-teal-500 font-bold"> un nuevo código</span>
             </p>
 
             <form
@@ -64,7 +64,7 @@ export default function RegisterView() {
                 <input
                     type="submit"
                     value='Enviar Código'
-                    className="bg-fuchsia-600 hover:bg-fuchsia-700 w-full p-3 rounded-lg text-white font-black  text-xl cursor-pointer"
+                    className="bg-teal-600 hover:bg-teal-700 w-full p-3 rounded-lg text-white font-black  text-xl cursor-pointer"
                 />
             </form>
 

@@ -25,7 +25,7 @@ export default function DashboardView() {
       <p className="text-2xl font-light text-gray-500 mt-5">Maneja y administra tus proyectos</p>
       <nav className="my-5">
         <Link
-          className="bg-purple-400 hover:bg-purple-500 px-10 py-3 text-white text-xl font bold cursor-pointer transition-colors"
+          className="bg-teal-400 hover:bg-teal-500 px-10 py-3 text-white text-xl font bold cursor-pointer transition-colors"
           to="/projects/create"
         >Nuevo Proyecto</Link>
       </nav>
@@ -102,7 +102,7 @@ export default function DashboardView() {
         <p className="text-center py-10">No hay proyectos aún {''}
           <Link
             to='/projects/create'
-            className="text-fuchsia-500 font-bold"
+            className="text-teal-500 font-bold"
           >Crear Proyecto</Link>
 
         </p>

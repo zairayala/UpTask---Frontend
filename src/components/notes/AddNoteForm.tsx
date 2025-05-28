@@ -60,7 +60,7 @@ export default function AddNoteForm() {
             <input
                 type="submit"
                 value='Crear nota'
-                className="bg-fuchsia-600 hover:bg-fuchsia-700 w-full p-2 text-white font-black cursor-pointer mt-5"
+                className="bg-teal-600 hover:bg-teal-700 w-full p-2 text-white font-black cursor-pointer mt-5"
             />
         </form>
     )

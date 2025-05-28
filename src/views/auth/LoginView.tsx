@@ -28,10 +28,10 @@ export default function LoginView() {
 
   return (
     <>
-      <h1 className="text-5xl font-black text-white">Iniciar sesión</h1>
-      <p className="text-2xl font-light text-white mt-5">
+      <h1 className="text-5xl font-black text-black">Iniciar sesión</h1>
+      <p className="text-2xl font-light text-black mt-5">
         Comienza a planear tus proyectos {''}
-        <span className=" text-fuchsia-500 font-bold"> iniciando sesión en este formulario</span>
+        <span className=" text-teal-500 font-bold"> iniciando sesión en este formulario</span>
       </p>
 
       <form
@@ -83,21 +83,21 @@ export default function LoginView() {
         <input
           type="submit"
           value='Iniciar Sesión'
-          className="bg-fuchsia-600 hover:bg-fuchsia-700 w-full p-3  text-white font-black  text-xl cursor-pointer"
+          className="bg-teal-600 hover:bg-teal-700 w-full p-3  text-white font-black  text-xl cursor-pointer"
         />
       </form>
       <nav className="mt-10 flex flex-col space-y-4">
         <Link
           to={'/auth/register'}
-          className="text-center text-gray-300 font-normal hover:text-gray-50"
+          className="text-center text-black font-normal hover:text-black-50"
         >¿No tienes cuenta? {''}
-          <span className="text-fuchsia-500 font-bold">Registrate</span>
+          <span className="text-teal-500 font-bold">Registrate</span>
         </Link>
         <Link
           to={'/auth/forgot-password'}
-          className="text-center text-gray-300 font-normal hover:text-gray-50"
+          className="text-center text-black font-normal hover:text-black-50"
         >¿Olvidaste tu contraseña? {''}
-          <span className="text-fuchsia-500 font-bold">Reetablecer</span>
+          <span className="text-teal-500 font-bold">Reetablecer</span>
         </Link>
 
       </nav>
